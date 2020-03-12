@@ -16,10 +16,10 @@ export const requestTodosError = error => ({
 });
 
 export const fetchTodos = () => {
-  return dispatch => {
+  return async dispatch => {
     dispatch(requestTodos());
 
-    return fetch('http://www.mocky.io/v2/5e67bef33100005c00230c56', {
+    return await fetch('http://www.mocky.io/v2/5e67bef33100005c00230c56', {
       method: 'GET',
       headers: {
         Accept: 'application/json',
