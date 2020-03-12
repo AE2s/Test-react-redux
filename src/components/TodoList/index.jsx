@@ -7,9 +7,9 @@ export default function TodoList({ errors, datas }) {
     <Error></Error>
   ) : (
     <div>
-      <h1 class="display-4">Test de react redux Todo</h1>
-      <div class="table-responsive">
-        <table class="table">
+      <h1 className="display-4">Test de react redux Todo</h1>
+      <div className="table-responsive">
+        <table className="table">
           <thead>
             <tr>
               <th>UserId</th>
