@@ -1,5 +1,4 @@
 import * as types from '../constants/counterConstants';
-import { isForInStatement } from 'typescript';
 const initialState = {
   counter: 0,
 };
